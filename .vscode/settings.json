@@ -1,0 +1,4 @@
+{
+    // "python.envFile": "${workspaceFolder}/.vscode/.env",
+    "python.pythonPath": "venv38/bin/python"
+}
