@@ -4,7 +4,10 @@ dallas phoenix deep racer
 ### Remeber to activate virtual environment
 $**/venv38/bin/activate**
 
-go to project folder:
+Go to project folder:
+### install packages needed
+projects$**pip install -r requirements.txt
+
 ### pytest will run all tests
 project$**pytest** 
 
