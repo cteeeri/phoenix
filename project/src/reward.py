@@ -13,6 +13,7 @@ def rwd(params):    # params is a dictionary
 
     # reward weight, 20 point based
     reward = 0.0
+    PUNISH = 0.001
     DIRECTION_WEIGHT = 6
     DIRECTION_MAGNITUDE_WEIGHT = 4
 
@@ -67,7 +68,7 @@ def rwd(params):    # params is a dictionary
     track_heading_diff, track_direction = _track_heading_diff(previous_point, next_point, heading)
 
     if not all_wheels_on_track:
-        reward = 0.001
+        reward = PUNISH
         print(f' off track reward {reward}')
         return reward
 
