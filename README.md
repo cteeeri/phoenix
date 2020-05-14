@@ -1,6 +1,9 @@
 # phoenix
 dallas phoenix deep racer
 
+### Remeber to activate virtual environment
+$**/venv38/bin/activate**
+
 go to project folder:
 ### pytest will run all tests
 project$**pytest** 
