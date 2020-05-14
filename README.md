@@ -2,8 +2,8 @@
 Dallas Phoenix Deep Racer
 
 ### Remember to create then activate virtual environment. 
-$**mkdir phoenix && cd phoenix**.  
-phoenix$**python3 -m venv venv38**.   
+$**mkdir phoenix && cd phoenix**   
+phoenix$**python3 -m venv venv38**    
 $**/venv38/bin/activate**  
 
 Go to project folder:
