@@ -6,12 +6,12 @@ $**/venv38/bin/activate**
 
 Go to project folder:
 ### install packages needed
-projects$**pip install -r requirements.txt
+(venv38)projects$**pip install -r requirements.txt
 
 ### pytest will run all tests
-project$**pytest** 
+(vene38)project$**pytest** 
 
 ### to run reward.py with the __main__:
-project$**python -m src.reward**
+(venv38)project$**python -m src.reward**
 
 Modify away and let me know of any error.
