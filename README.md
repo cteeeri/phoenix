@@ -9,7 +9,7 @@ Go to project folder:
 (venv38)projects$**pip install -r requirements.txt
 
 ## Pytest command will run all tests
-(vene38)project$**pytest** 
+(venv38)project$**pytest** 
 
 ## To run reward.py with the __main__:
 (venv38)project$**python -m src.reward**
